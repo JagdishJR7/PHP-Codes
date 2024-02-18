@@ -11,7 +11,7 @@
     <h2>2nd pract : To find the no. of days in a month.</h2>
     <form method="post" action="2_No.OfDays.php">
         <label for="">Enter the month (1-12)</label>
-        <input type="number" name="number" min="1" max="12"><br>
+        <input type="number" name="number" min="1" max="12"><br><br>
 
         <input type="submit" name="submit" value="submit">
     </form>
@@ -21,51 +21,51 @@
         $month = $_POST["number"];
         switch ($month) {
             case 1:
-                echo "<p>No. od days in $month is 31.";
+                echo "<p>No. of days in $month is 31 </p>.";
                 break;
 
             case 3:
-                echo "<p>No. od days in $month is 31.";
+                echo "<p>No. of days in $month is 31</p>.";
                 break;
 
             case 5:
-                echo "<p>No. od days in $month is 31.";
+                echo "<p>No. of days in $month is 31</p>.";
                 break;
 
             case 7:
-                echo "<p>No. od days in $month is 31.";
+                echo "<p>No. of days in $month is 31</p>.";
                 break;
 
             case 8:
-                echo "<p>No. od days in $month is 31.";
+                echo "<p>No. of days in $month is 31</p>.";
                 break;
 
             case 10:
-                echo "<p>No. od days in $month is 31.";
+                echo "<p>No. of days in $month is 31</p>.";
                 break;
 
             case 12:
-                echo "<p>No. od days in $month is 31.";
+                echo "<p>No. of days in $month is 31</p>.";
                 break;
 
             case 4:
-                echo "<p>No. od days in $month is 30.";
+                echo "<p>No. of days in $month is 30</p>.";
                 break;
 
             case 6:
-                echo "<p>No. od days in $month is 30.";
+                echo "<p>No. of days in $month is 30</p>.";
                 break;
 
             case 9:
-                echo "<p>No. od days in $month is 30.";
+                echo "<p>No. of days in $month is 30</p>.";
                 break;
 
             case 11:
-                echo "<p>No. od days in $month is 30.";
+                echo "<p>No. of days in $month is 30</p>.";
                 break;
 
             case 2:
-                echo "<p>No. od days in $month is 28.";
+                echo "<p>No. of days in $month is 28</p>.";
                 break;
 
             default:
