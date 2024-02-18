@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Fourth pract : To find the sum of first n odd number.</h2>
-    <form method="post" action="4_Fourth.php">
+    <form method="post" action="4_SumOfFirstN_odd.php">
         <label for="">Enter 'n' number : </label>
         <input type="number" name="number" ><br><br>
 
