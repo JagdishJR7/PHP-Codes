@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Sixth Pract : To print the pattern using nested of loop </h2>
-    <form method="post" action="6_sixth.php">
+    <form method="post" action="6_Pattern.php">
         <label for="">Enter the number of rows for which you want the pattern : </label>
         <input type="number" name="rows_number"> <br><br>
 
