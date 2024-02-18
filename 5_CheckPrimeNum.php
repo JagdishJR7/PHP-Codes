@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Fifth pract : To find the given number is prime or not.</h2>
-    <form method="post" action="5_fifth.php">
+    <form method="post" action="5_CheckPrimeNum.php">
         <label for="">Enter the number : </label>
         <input type="number" name="Prime_number"><br><br>
 
