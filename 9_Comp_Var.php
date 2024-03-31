@@ -7,7 +7,7 @@
     <title>Compare two variables.</title>
 </head>
 <body>
-    <h2>PHP code To compare two variables using equality opr.</h2>
+    <h2>PHP code To compare two variables using equality/Identity opr.</h2>
     <form method="post" action="9_Comp_Var.php">
         <label for="">Enter the first Var : </label>
         <input type="number" name="num1"><br><br>
@@ -32,9 +32,11 @@
                 echo "<br>";
             }
             else{
-                echo "THe values are not equal.";
+                echo "The values are not equal.";
                 echo "<br>";
             }
+                
+            echo "<br>";
 
             // using identity operator
             echo "Using Identity Opr : ";
@@ -46,6 +48,45 @@
             else{
                 echo "The values are not equal.";
             }
+
+            echo "<br>";
+            echo "<br>";
+            echo "<br>";
+
+            echo "<p> - Using assigned Variables.</p>";
+            echo "<br>";
+
+            $n1 = 5;
+            $n2 = "5";
+            echo "n1 = $n1";
+            echo "<br>";
+            
+            echo "n2 = $n2";
+            echo "<br>";
+            
+            echo "<p> Using equality operator::</p>";
+            // echo "<br>";
+            
+            if($n1 == $n2){
+                echo "The values are equal.";
+                echo "<br>";
+            }
+            else{
+                echo "Values are not equal.";
+                echo "<br>";
+            }
+            echo "<p> Using Identity operator::</p>";
+            // echo "<br>";
+
+            if($n1 === $n2){
+                echo "The values and datatypes both are equal.";
+                echo "<br>";
+            }
+            else{
+                echo "one of Value or Datatype is not same.";
+                echo "<br>";
+            }
+
         }
     ?>
 </body>
